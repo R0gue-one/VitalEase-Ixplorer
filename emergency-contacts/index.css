@@ -1,0 +1,212 @@
+.frame-child,
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 280px;
+  object-fit: cover;
+}
+.frame-item {
+  left: 917px;
+  border-radius: 8px;
+  width: 409px;
+}
+.emergency-contacts {
+  position: absolute;
+  top: 94px;
+  left: 80px;
+  display: inline-block;
+  width: 582px;
+  height: 92px;
+}
+.ambulance-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #ea4545;
+  width: 270px;
+  height: 270px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ambulance-icon {
+  position: absolute;
+  top: 72px;
+  left: 60px;
+  border-radius: var(--br-5xl);
+  width: 150px;
+  height: 126px;
+  object-fit: cover;
+}
+.ambulance,
+.police-child {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+}
+.ambulance {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 396px;
+  left: 80px;
+}
+.police-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #3c5d9d;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ambulance-icon1 {
+  position: absolute;
+  top: 59px;
+  left: 61px;
+  border-radius: var(--br-5xl);
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+}
+.elderhelpline-child,
+.police {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+}
+.police {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 396px;
+  left: 414px;
+}
+.elderhelpline-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #16ec85;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ambulance-icon2 {
+  position: absolute;
+  top: 63px;
+  left: 59px;
+  border-radius: var(--br-5xl);
+  width: 151px;
+  height: 144px;
+  object-fit: cover;
+}
+.elderhelpline {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 396px;
+  left: 752px;
+}
+.elderhelpline,
+.firebrigade,
+.firebrigade-child {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+}
+.firebrigade-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #e9a847;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.firebrigade {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 396px;
+  left: 1089px;
+}
+.group-child,
+.rectangle-group {
+  position: absolute;
+  width: 271px;
+  height: 64px;
+}
+.group-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gainsboro);
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 680px;
+  left: 80px;
+}
+.police1 {
+  position: absolute;
+  top: 12px;
+  left: 99px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-lilita-one);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 97px;
+  height: 39px;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 680px;
+  left: 414px;
+  width: 271px;
+  height: 64px;
+}
+.elder-line {
+  position: absolute;
+  top: 12px;
+  left: 65px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-lilita-one);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 168px;
+  height: 39px;
+}
+.group-button,
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 680px;
+  left: 752px;
+  width: 271px;
+  height: 64px;
+}
+.rectangle-parent1 {
+  left: 1089px;
+}
+.rectangle-parent {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: 64px;
+  color: var(--color-black);
+  font-family: var(--font-lilita-one);
+}
